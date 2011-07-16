@@ -21,3 +21,10 @@ Created to clarify the fundamentals of view drawing with Quartz. Draw simple fil
 
 * Dependencies: iOS 4
 * Universal for iPhone & iPad
+
+TouchCards
+----------
+
+Demonstrates positionable views that can "flip" using a Core Animation transition.
+
+* Dependencies: iOS 4
