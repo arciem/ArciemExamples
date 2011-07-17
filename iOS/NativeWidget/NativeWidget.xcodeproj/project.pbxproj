@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0348D04C13D2DD860060CAAA /* UIViewUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0348D04B13D2DD860060CAAA /* UIViewUtils.mm */; };
+		0348D04F13D2DD990060CAAA /* CGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0348D04E13D2DD990060CAAA /* CGUtils.mm */; };
+		0348D05213D2DDA50060CAAA /* DeviceUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0348D05113D2DDA50060CAAA /* DeviceUtils.mm */; };
+		0348D05713D2DDC90060CAAA /* UIColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348D05413D2DDC90060CAAA /* UIColorUtils.m */; };
+		0348D05813D2DDC90060CAAA /* UIImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348D05613D2DDC90060CAAA /* UIImageUtils.m */; };
+		0348D05B13D2DDDA0060CAAA /* Geom.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348D05A13D2DDDA0060CAAA /* Geom.m */; };
+		0348D05E13D2DEBA0060CAAA /* CLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348D05D13D2DEBA0060CAAA /* CLog.m */; };
+		0348D06213D2DED00060CAAA /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0348D06013D2DED00060CAAA /* random.cpp */; };
+		0348D06513D2E6E60060CAAA /* FaveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0348D06413D2E6E60060CAAA /* FaveButton.m */; };
+		0348D06B13D2E8C80060CAAA /* FaveStarOffShape.png in Resources */ = {isa = PBXBuildFile; fileRef = 0348D06713D2E8C80060CAAA /* FaveStarOffShape.png */; };
+		0348D06C13D2E8C80060CAAA /* FaveStarOffShape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0348D06813D2E8C80060CAAA /* FaveStarOffShape@2x.png */; };
+		0348D06D13D2E8C80060CAAA /* FaveStarOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0348D06913D2E8C80060CAAA /* FaveStarOn.png */; };
+		0348D06E13D2E8C80060CAAA /* FaveStarOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0348D06A13D2E8C80060CAAA /* FaveStarOn@2x.png */; };
+		03E7F9E413D244D5000DF720 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E7F9E313D244D5000DF720 /* UIKit.framework */; };
+		03E7F9E613D244D5000DF720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E7F9E513D244D5000DF720 /* Foundation.framework */; };
+		03E7F9E813D244D5000DF720 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E7F9E713D244D5000DF720 /* CoreGraphics.framework */; };
+		03E7F9EE13D244D5000DF720 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03E7F9EC13D244D5000DF720 /* InfoPlist.strings */; };
+		03E7F9F013D244D5000DF720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E7F9EF13D244D5000DF720 /* main.m */; };
+		03E7F9F413D244D5000DF720 /* NativeWidgetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E7F9F313D244D5000DF720 /* NativeWidgetAppDelegate.m */; };
+		03E7F9F713D244D5000DF720 /* NativeWidgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E7F9F613D244D5000DF720 /* NativeWidgetViewController.m */; };
+		03E7F9FA13D244D5000DF720 /* NativeWidgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E7F9F813D244D5000DF720 /* NativeWidgetViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0348D04A13D2DD860060CAAA /* UIViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIViewUtils.h; path = iOS/arciem/UIViewUtils.h; sourceTree = "<group>"; };
+		0348D04B13D2DD860060CAAA /* UIViewUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = UIViewUtils.mm; path = iOS/arciem/UIViewUtils.mm; sourceTree = "<group>"; };
+		0348D04D13D2DD990060CAAA /* CGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGUtils.h; path = iOS/arciem/CGUtils.h; sourceTree = "<group>"; };
+		0348D04E13D2DD990060CAAA /* CGUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CGUtils.mm; path = iOS/arciem/CGUtils.mm; sourceTree = "<group>"; };
+		0348D05013D2DDA50060CAAA /* DeviceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceUtils.h; path = iOS/arciem/DeviceUtils.h; sourceTree = "<group>"; };
+		0348D05113D2DDA50060CAAA /* DeviceUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DeviceUtils.mm; path = iOS/arciem/DeviceUtils.mm; sourceTree = "<group>"; };
+		0348D05313D2DDC90060CAAA /* UIColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIColorUtils.h; path = iOS/arciem/UIColorUtils.h; sourceTree = "<group>"; };
+		0348D05413D2DDC90060CAAA /* UIColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIColorUtils.m; path = iOS/arciem/UIColorUtils.m; sourceTree = "<group>"; };
+		0348D05513D2DDC90060CAAA /* UIImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageUtils.h; path = iOS/arciem/UIImageUtils.h; sourceTree = "<group>"; };
+		0348D05613D2DDC90060CAAA /* UIImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIImageUtils.m; path = iOS/arciem/UIImageUtils.m; sourceTree = "<group>"; };
+		0348D05913D2DDDA0060CAAA /* Geom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Geom.h; path = ObjC/arciem/Geom.h; sourceTree = "<group>"; };
+		0348D05A13D2DDDA0060CAAA /* Geom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Geom.m; path = ObjC/arciem/Geom.m; sourceTree = "<group>"; };
+		0348D05C13D2DEBA0060CAAA /* CLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLog.h; path = ObjC/arciem/CLog.h; sourceTree = "<group>"; };
+		0348D05D13D2DEBA0060CAAA /* CLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLog.m; path = ObjC/arciem/CLog.m; sourceTree = "<group>"; };
+		0348D05F13D2DED00060CAAA /* math_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = math_utils.hpp; path = CPP/arciem/math_utils.hpp; sourceTree = "<group>"; };
+		0348D06013D2DED00060CAAA /* random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = random.cpp; path = CPP/arciem/random.cpp; sourceTree = "<group>"; };
+		0348D06113D2DED00060CAAA /* random.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = random.hpp; path = CPP/arciem/random.hpp; sourceTree = "<group>"; };
+		0348D06313D2E6E60060CAAA /* FaveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaveButton.h; sourceTree = "<group>"; };
+		0348D06413D2E6E60060CAAA /* FaveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaveButton.m; sourceTree = "<group>"; };
+		0348D06713D2E8C80060CAAA /* FaveStarOffShape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaveStarOffShape.png; sourceTree = "<group>"; };
+		0348D06813D2E8C80060CAAA /* FaveStarOffShape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FaveStarOffShape@2x.png"; sourceTree = "<group>"; };
+		0348D06913D2E8C80060CAAA /* FaveStarOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FaveStarOn.png; sourceTree = "<group>"; };
+		0348D06A13D2E8C80060CAAA /* FaveStarOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FaveStarOn@2x.png"; sourceTree = "<group>"; };
+		03E7F9DF13D244D5000DF720 /* NativeWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E7F9E313D244D5000DF720 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03E7F9E513D244D5000DF720 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03E7F9E713D244D5000DF720 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03E7F9EB13D244D5000DF720 /* NativeWidget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NativeWidget-Info.plist"; sourceTree = "<group>"; };
+		03E7F9ED13D244D5000DF720 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03E7F9EF13D244D5000DF720 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03E7F9F113D244D5000DF720 /* NativeWidget-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeWidget-Prefix.pch"; sourceTree = "<group>"; };
+		03E7F9F213D244D5000DF720 /* NativeWidgetAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeWidgetAppDelegate.h; sourceTree = "<group>"; };
+		03E7F9F313D244D5000DF720 /* NativeWidgetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeWidgetAppDelegate.m; sourceTree = "<group>"; };
+		03E7F9F513D244D5000DF720 /* NativeWidgetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeWidgetViewController.h; sourceTree = "<group>"; };
+		03E7F9F613D244D5000DF720 /* NativeWidgetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeWidgetViewController.m; sourceTree = "<group>"; };
+		03E7F9F913D244D5000DF720 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NativeWidgetViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E7F9DC13D244D5000DF720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E7F9E413D244D5000DF720 /* UIKit.framework in Frameworks */,
+				03E7F9E613D244D5000DF720 /* Foundation.framework in Frameworks */,
+				03E7F9E813D244D5000DF720 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0348D04813D2DB0D0060CAAA /* LibArciem */ = {
+			isa = PBXGroup;
+			children = (
+				0348D05F13D2DED00060CAAA /* math_utils.hpp */,
+				0348D06013D2DED00060CAAA /* random.cpp */,
+				0348D06113D2DED00060CAAA /* random.hpp */,
+				0348D05C13D2DEBA0060CAAA /* CLog.h */,
+				0348D05D13D2DEBA0060CAAA /* CLog.m */,
+				0348D04D13D2DD990060CAAA /* CGUtils.h */,
+				0348D04E13D2DD990060CAAA /* CGUtils.mm */,
+				0348D04A13D2DD860060CAAA /* UIViewUtils.h */,
+				0348D04B13D2DD860060CAAA /* UIViewUtils.mm */,
+				0348D05013D2DDA50060CAAA /* DeviceUtils.h */,
+				0348D05113D2DDA50060CAAA /* DeviceUtils.mm */,
+				0348D05313D2DDC90060CAAA /* UIColorUtils.h */,
+				0348D05413D2DDC90060CAAA /* UIColorUtils.m */,
+				0348D05513D2DDC90060CAAA /* UIImageUtils.h */,
+				0348D05613D2DDC90060CAAA /* UIImageUtils.m */,
+				0348D05913D2DDDA0060CAAA /* Geom.h */,
+				0348D05A13D2DDDA0060CAAA /* Geom.m */,
+			);
+			name = LibArciem;
+			path = ../../../Submodules/LibArciem;
+			sourceTree = "<group>";
+		};
+		0348D06613D2E8C70060CAAA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0348D06713D2E8C80060CAAA /* FaveStarOffShape.png */,
+				0348D06813D2E8C80060CAAA /* FaveStarOffShape@2x.png */,
+				0348D06913D2E8C80060CAAA /* FaveStarOn.png */,
+				0348D06A13D2E8C80060CAAA /* FaveStarOn@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		03E7F9D413D244D5000DF720 = {
+			isa = PBXGroup;
+			children = (
+				03E7F9E913D244D5000DF720 /* NativeWidget */,
+				03E7F9E213D244D5000DF720 /* Frameworks */,
+				03E7F9E013D244D5000DF720 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E7F9E013D244D5000DF720 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E7F9DF13D244D5000DF720 /* NativeWidget.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E7F9E213D244D5000DF720 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03E7F9E313D244D5000DF720 /* UIKit.framework */,
+				03E7F9E513D244D5000DF720 /* Foundation.framework */,
+				03E7F9E713D244D5000DF720 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03E7F9E913D244D5000DF720 /* NativeWidget */ = {
+			isa = PBXGroup;
+			children = (
+				03E7F9F213D244D5000DF720 /* NativeWidgetAppDelegate.h */,
+				03E7F9F313D244D5000DF720 /* NativeWidgetAppDelegate.m */,
+				03E7F9F513D244D5000DF720 /* NativeWidgetViewController.h */,
+				03E7F9F613D244D5000DF720 /* NativeWidgetViewController.m */,
+				0348D06313D2E6E60060CAAA /* FaveButton.h */,
+				0348D06413D2E6E60060CAAA /* FaveButton.m */,
+				03E7F9F813D244D5000DF720 /* NativeWidgetViewController.xib */,
+				0348D06613D2E8C70060CAAA /* Images */,
+				0348D04813D2DB0D0060CAAA /* LibArciem */,
+				03E7F9EA13D244D5000DF720 /* Supporting Files */,
+			);
+			path = NativeWidget;
+			sourceTree = "<group>";
+		};
+		03E7F9EA13D244D5000DF720 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03E7F9EB13D244D5000DF720 /* NativeWidget-Info.plist */,
+				03E7F9EC13D244D5000DF720 /* InfoPlist.strings */,
+				03E7F9EF13D244D5000DF720 /* main.m */,
+				03E7F9F113D244D5000DF720 /* NativeWidget-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E7F9DE13D244D5000DF720 /* NativeWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E7F9FD13D244D5000DF720 /* Build configuration list for PBXNativeTarget "NativeWidget" */;
+			buildPhases = (
+				03E7F9DB13D244D5000DF720 /* Sources */,
+				03E7F9DC13D244D5000DF720 /* Frameworks */,
+				03E7F9DD13D244D5000DF720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeWidget;
+			productName = NativeWidget;
+			productReference = 03E7F9DF13D244D5000DF720 /* NativeWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E7F9D613D244D5000DF720 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 03E7F9D913D244D5000DF720 /* Build configuration list for PBXProject "NativeWidget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03E7F9D413D244D5000DF720;
+			productRefGroup = 03E7F9E013D244D5000DF720 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E7F9DE13D244D5000DF720 /* NativeWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E7F9DD13D244D5000DF720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E7F9EE13D244D5000DF720 /* InfoPlist.strings in Resources */,
+				03E7F9FA13D244D5000DF720 /* NativeWidgetViewController.xib in Resources */,
+				0348D06B13D2E8C80060CAAA /* FaveStarOffShape.png in Resources */,
+				0348D06C13D2E8C80060CAAA /* FaveStarOffShape@2x.png in Resources */,
+				0348D06D13D2E8C80060CAAA /* FaveStarOn.png in Resources */,
+				0348D06E13D2E8C80060CAAA /* FaveStarOn@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E7F9DB13D244D5000DF720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E7F9F013D244D5000DF720 /* main.m in Sources */,
+				03E7F9F413D244D5000DF720 /* NativeWidgetAppDelegate.m in Sources */,
+				03E7F9F713D244D5000DF720 /* NativeWidgetViewController.m in Sources */,
+				0348D04C13D2DD860060CAAA /* UIViewUtils.mm in Sources */,
+				0348D04F13D2DD990060CAAA /* CGUtils.mm in Sources */,
+				0348D05213D2DDA50060CAAA /* DeviceUtils.mm in Sources */,
+				0348D05713D2DDC90060CAAA /* UIColorUtils.m in Sources */,
+				0348D05813D2DDC90060CAAA /* UIImageUtils.m in Sources */,
+				0348D05B13D2DDDA0060CAAA /* Geom.m in Sources */,
+				0348D05E13D2DEBA0060CAAA /* CLog.m in Sources */,
+				0348D06213D2DED00060CAAA /* random.cpp in Sources */,
+				0348D06513D2E6E60060CAAA /* FaveButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03E7F9EC13D244D5000DF720 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E7F9ED13D244D5000DF720 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03E7F9F813D244D5000DF720 /* NativeWidgetViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E7F9F913D244D5000DF720 /* en */,
+			);
+			name = NativeWidgetViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E7F9FB13D244D5000DF720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03E7F9FC13D244D5000DF720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03E7F9FE13D244D5000DF720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeWidget/NativeWidget-Prefix.pch";
+				INFOPLIST_FILE = "NativeWidget/NativeWidget-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03E7F9FF13D244D5000DF720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeWidget/NativeWidget-Prefix.pch";
+				INFOPLIST_FILE = "NativeWidget/NativeWidget-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E7F9D913D244D5000DF720 /* Build configuration list for PBXProject "NativeWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E7F9FB13D244D5000DF720 /* Debug */,
+				03E7F9FC13D244D5000DF720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E7F9FD13D244D5000DF720 /* Build configuration list for PBXNativeTarget "NativeWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E7F9FE13D244D5000DF720 /* Debug */,
+				03E7F9FF13D244D5000DF720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03E7F9D613D244D5000DF720 /* Project object */;
+}
