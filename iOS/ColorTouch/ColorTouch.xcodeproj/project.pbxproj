@@ -134,6 +134,9 @@
 /* Begin PBXProject section */
 		034115F213D1814D00D0DA1C /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 034115F513D1814D00D0DA1C /* Build configuration list for PBXProject "ColorTouch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;

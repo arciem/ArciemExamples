@@ -199,6 +199,9 @@
 /* Begin PBXProject section */
 		03E7F9D613D244D5000DF720 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 03E7F9D913D244D5000DF720 /* Build configuration list for PBXProject "NativeWidget" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
