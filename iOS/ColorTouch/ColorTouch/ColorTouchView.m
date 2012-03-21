@@ -2,7 +2,7 @@
 
 @interface ColorTouchView ()
 
-@property(nonatomic, retain) NSData* pixelData;
+@property(strong, nonatomic) NSData* pixelData;
 @property(nonatomic) NSUInteger bytesPerRow;
 @property(nonatomic) NSUInteger bytesPerPixel;
 
@@ -21,15 +21,6 @@
 - (void)drawRect:(CGRect)rect
 {
 	[self.visibleImage drawAtPoint:CGPointZero];
-}
-
-- (void)dealloc
-{
-	self.visibleImage = nil;
-	self.colorMapImage = nil;
-	self.pixelData = nil;
-	self.colorMappings = nil;
-	[super dealloc];
 }
 
 - (void)syncToColorMap
@@ -101,16 +92,12 @@
 
 - (void)setVisibleImage:(UIImage *)visibleImage
 {
-	[visibleImage retain];
-	[visibleImage_ release];
 	visibleImage_ = visibleImage;
 	[self setNeedsDisplay];
 }
 
 - (void)setColorMapImage:(UIImage *)colorMapImage
 {
-	[colorMapImage retain];
-	[colorMapImage_ release];
 	colorMapImage_ = colorMapImage;
 	[self syncToColorMap];
 }

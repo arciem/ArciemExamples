@@ -7,8 +7,8 @@
     TouchCardsViewController *viewController;
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet TouchCardsViewController *viewController;
+@property (strong, nonatomic) IBOutlet UIWindow *window;
+@property (strong, nonatomic) IBOutlet TouchCardsViewController *viewController;
 
 @end
 

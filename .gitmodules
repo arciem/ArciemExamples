@@ -1,3 +1,3 @@
-[submodule "Submodules/LibArciem"]
-	path = Submodules/LibArciem
+[submodule "LibArciem"]
+	path = LibArciem
 	url = git@github.com:arciem/LibArciem.git

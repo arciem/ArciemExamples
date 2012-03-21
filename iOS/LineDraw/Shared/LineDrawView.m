@@ -3,8 +3,8 @@
 
 @interface LineDrawView()
 
-@property(nonatomic, retain) NSMutableArray* shapes;
-@property(nonatomic, retain) Shape* currentShape;
+@property(strong, nonatomic) NSMutableArray* shapes;
+@property(strong, nonatomic) Shape* currentShape;
 
 @end
 
@@ -18,13 +18,6 @@
 	self.shapes = [NSMutableArray array];
 }
 
-- (void)dealloc
-{
-	self.shapes = nil;
-	self.currentShape = nil;
-	
-	[super dealloc];
-}
 
 // To call me, call setNeedsDisplay!
 - (void)drawRect:(CGRect)rect
@@ -39,7 +32,7 @@
 - (void)addToCurrentShapePoint:(CGPoint)p
 {
 	if(self.currentShape == nil) {
-		self.currentShape = [[[Shape alloc] init] autorelease];
+		self.currentShape = [[Shape alloc] init];
 		[self.shapes addObject:self.currentShape];
 	}
 	

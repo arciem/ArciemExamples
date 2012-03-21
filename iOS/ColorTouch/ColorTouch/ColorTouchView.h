@@ -11,9 +11,9 @@
 
 @interface ColorTouchView : UIView
 
-@property(nonatomic, retain) UIImage* visibleImage;
-@property(nonatomic, retain) UIImage* colorMapImage;
-@property(nonatomic, retain) NSDictionary* colorMappings;
-@property(nonatomic, assign) id<ColorTouchViewDelegate> delegate;
+@property(strong, nonatomic) UIImage* visibleImage;
+@property(strong, nonatomic) UIImage* colorMapImage;
+@property(strong, nonatomic) NSDictionary* colorMappings;
+@property(weak, nonatomic) id<ColorTouchViewDelegate> delegate;
 
 @end

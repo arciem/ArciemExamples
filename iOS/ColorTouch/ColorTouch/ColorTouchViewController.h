@@ -3,9 +3,9 @@
 
 @interface ColorTouchViewController : UIViewController<ColorTouchViewDelegate>
 
-@property(nonatomic, retain) IBOutlet ColorTouchView* colorTouchView;
-@property(nonatomic, retain) IBOutlet UISwitch* switchControl;
-@property(nonatomic, retain) IBOutlet UILabel* label;
+@property(strong, nonatomic) IBOutlet ColorTouchView* colorTouchView;
+@property(strong, nonatomic) IBOutlet UISwitch* switchControl;
+@property(strong, nonatomic) IBOutlet UILabel* label;
 
 - (IBAction)switchChanged;
 

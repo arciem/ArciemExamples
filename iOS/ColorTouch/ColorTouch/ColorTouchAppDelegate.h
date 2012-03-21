@@ -4,8 +4,8 @@
 
 @interface ColorTouchAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (retain, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UIWindow *window;
 
-@property (retain, nonatomic) ColorTouchViewController *viewController;
+@property (strong, nonatomic) ColorTouchViewController *viewController;
 
 @end

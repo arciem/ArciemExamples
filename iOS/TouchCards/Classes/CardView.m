@@ -3,8 +3,8 @@
 @interface CardView ()
 
 @property(nonatomic) CGPoint offset;
-@property(nonatomic, retain) UIImageView* frontView;
-@property(nonatomic, retain) UIImageView* backView;
+@property(strong, nonatomic) UIImageView* frontView;
+@property(strong, nonatomic) UIImageView* backView;
 @property(nonatomic, getter = isFaceDown) BOOL faceDown; // setter is called setFaceDown, getter is defined to be isFaceDown
 
 @end
@@ -20,10 +20,10 @@
 - (id)initWithFrame:(CGRect)frame frontImage:(UIImage*)frontImage backImage:(UIImage*)backImage
 {
 	if(self = [super initWithFrame:frame]) {
-		self.frontView = [[[UIImageView alloc] initWithImage:frontImage] autorelease];
+		self.frontView = [[UIImageView alloc] initWithImage:frontImage];
 		self.frontView.frame = self.bounds;
 		self.frontView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-		self.backView = [[[UIImageView alloc] initWithImage:backImage] autorelease];
+		self.backView = [[UIImageView alloc] initWithImage:backImage];
 		self.backView.frame = self.bounds;
 		self.backView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 		
@@ -33,12 +33,6 @@
 	return self;
 }
 
-- (void)dealloc
-{
-	self.frontView = nil;
-	self.backView = nil;
-	[super dealloc];
-}
 
 - (void)moveToPoint:(CGPoint)p
 {

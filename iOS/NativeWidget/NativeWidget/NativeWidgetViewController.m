@@ -46,15 +46,15 @@
 		UIColor* color = [colors objectAtIndex:i];
 		NSString* title = [titles objectAtIndex:i];
 
-		UINavigationBar* navBar = [[[UINavigationBar alloc] initWithFrame:CGRectZero] autorelease];
+		UINavigationBar* navBar = [[UINavigationBar alloc] initWithFrame:CGRectZero];
 		navBar.tintColor = color;
 		UINavigationItem* item = [[UINavigationItem alloc] initWithTitle:title];
 		navBar.items = [NSArray arrayWithObject:item];
-		UIButton* button = [[[FaveButton alloc] init] autorelease];
+		UIButton* button = [[FaveButton alloc] init];
 		button.tintColor = color;
-		item.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithCustomView:button] autorelease];
+		item.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
 //		item.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleBordered target:self action:@selector(backButtonTapped)] autorelease];
-		item.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:title style:UIBarButtonItemStyleBordered target:nil action:nil] autorelease];
+		item.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:title style:UIBarButtonItemStyleBordered target:nil action:nil];
 		[self.view addSubview:navBar];
 		[navBar sizeToFit];
 		if(lastNavBar != nil) {

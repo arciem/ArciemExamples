@@ -15,6 +15,6 @@
 
 - (id)initWithFrame:(CGRect)frame frontImage:(UIImage*)frontImage backImage:(UIImage*)backImage;
 
-@property(nonatomic, assign) id<CardViewDelegate> delegate;
+@property(weak, nonatomic) id<CardViewDelegate> delegate;
 
 @end

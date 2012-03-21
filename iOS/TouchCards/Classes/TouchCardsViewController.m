@@ -2,7 +2,7 @@
 
 @interface TouchCardsViewController ()
 
-@property(nonatomic, retain) NSMutableArray* cardViews;
+@property(strong, nonatomic) NSMutableArray* cardViews;
 
 @end
 
@@ -32,7 +32,7 @@
 	for(NSString* frontImageName in frontNames) {
 		CGRect frame = CGRectMake(x, x, size.width, size.height);
 		UIImage* frontImage = [UIImage imageNamed:frontImageName];
-		CardView* cardView = [[[CardView alloc] initWithFrame:frame frontImage:frontImage backImage:backImage] autorelease];
+		CardView* cardView = [[CardView alloc] initWithFrame:frame frontImage:frontImage backImage:backImage];
 		cardView.backgroundColor = [UIColor clearColor];
 		cardView.delegate = self;
 		[self.view addSubview:cardView];
@@ -40,12 +40,6 @@
 		
 		x += 20;
 	}
-}
-
-- (void)dealloc {
-	self.cardViews = nil;
-
-    [super dealloc];
 }
 
 - (void)cardViewWasTouched:(CardView*)cardView

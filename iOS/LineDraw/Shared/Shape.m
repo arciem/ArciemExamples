@@ -3,8 +3,8 @@
 
 @interface Shape ()
 
-@property(nonatomic, retain) NSMutableArray* points;
-@property(nonatomic, retain) UIColor* fillColor;
+@property(strong, nonatomic) NSMutableArray* points;
+@property(strong, nonatomic) UIColor* fillColor;
 
 @end
 
@@ -21,14 +21,6 @@
 	}
 	
 	return self;
-}
-
-- (void)dealloc
-{
-	self.points = nil;
-	self.fillColor = nil;
-
-	[super dealloc];
 }
 
 - (void)draw
