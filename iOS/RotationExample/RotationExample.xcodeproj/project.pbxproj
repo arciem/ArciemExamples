@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03AFA0C1155BA8850082D511 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AFA0C0155BA8850082D511 /* UIKit.framework */; };
+		03AFA0C3155BA8850082D511 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AFA0C2155BA8850082D511 /* Foundation.framework */; };
+		03AFA0C5155BA8850082D511 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AFA0C4155BA8850082D511 /* CoreGraphics.framework */; };
+		03AFA0CB155BA8850082D511 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03AFA0C9155BA8850082D511 /* InfoPlist.strings */; };
+		03AFA0CD155BA8850082D511 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFA0CC155BA8850082D511 /* main.m */; };
+		03AFA0D1155BA8850082D511 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFA0D0155BA8850082D511 /* AppDelegate.m */; };
+		03AFA0D9155BA9DA0082D511 /* RotatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFA0D8155BA9DA0082D511 /* RotatingViewController.m */; };
+		03AFA0DE155BAAE70082D511 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03AFA0DC155BAAE70082D511 /* FirstViewController.xib */; };
+		03AFA0E4155BC4B00082D511 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFA0E3155BC4B00082D511 /* FirstViewController.m */; };
+		03AFA0E7155BC4CA0082D511 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFA0E6155BC4CA0082D511 /* SecondViewController.m */; };
+		03AFA0E9155BC5470082D511 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03AFA0E8155BC5470082D511 /* SecondViewController.xib */; };
+		03AFA0EC155BE22E0082D511 /* FirstModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFA0EB155BE22E0082D511 /* FirstModel.m */; };
+		03AFA0EF155BE23A0082D511 /* SecondModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFA0EE155BE23A0082D511 /* SecondModel.m */; };
+		03AFA0F2155BE5F00082D511 /* RotatingContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFA0F1155BE5F00082D511 /* RotatingContentView.m */; };
+		03AFA0F5155BE6010082D511 /* FirstContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFA0F4155BE6010082D511 /* FirstContentView.m */; };
+		03AFA0F8155BE6150082D511 /* SecondContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFA0F7155BE6150082D511 /* SecondContentView.m */; };
+		03AFA0FF155BEF2A0082D511 /* SpinningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFA0FE155BEF2A0082D511 /* SpinningView.m */; };
+		03AFA101155C00C80082D511 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AFA100155C00C80082D511 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03AFA0BC155BA8850082D511 /* RotationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AFA0C0155BA8850082D511 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03AFA0C2155BA8850082D511 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03AFA0C4155BA8850082D511 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03AFA0C8155BA8850082D511 /* RotationExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotationExample-Info.plist"; sourceTree = "<group>"; };
+		03AFA0CA155BA8850082D511 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03AFA0CC155BA8850082D511 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03AFA0CE155BA8850082D511 /* RotationExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RotationExample-Prefix.pch"; sourceTree = "<group>"; };
+		03AFA0CF155BA8850082D511 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03AFA0D0155BA8850082D511 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03AFA0D7155BA9DA0082D511 /* RotatingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatingViewController.h; sourceTree = "<group>"; };
+		03AFA0D8155BA9DA0082D511 /* RotatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatingViewController.m; sourceTree = "<group>"; };
+		03AFA0DC155BAAE70082D511 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		03AFA0E2155BC4B00082D511 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		03AFA0E3155BC4B00082D511 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		03AFA0E5155BC4CA0082D511 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		03AFA0E6155BC4CA0082D511 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		03AFA0E8155BC5470082D511 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		03AFA0EA155BE22E0082D511 /* FirstModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstModel.h; sourceTree = "<group>"; };
+		03AFA0EB155BE22E0082D511 /* FirstModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstModel.m; sourceTree = "<group>"; };
+		03AFA0ED155BE23A0082D511 /* SecondModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondModel.h; sourceTree = "<group>"; };
+		03AFA0EE155BE23A0082D511 /* SecondModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondModel.m; sourceTree = "<group>"; };
+		03AFA0F0155BE5F00082D511 /* RotatingContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatingContentView.h; sourceTree = "<group>"; };
+		03AFA0F1155BE5F00082D511 /* RotatingContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatingContentView.m; sourceTree = "<group>"; };
+		03AFA0F3155BE6010082D511 /* FirstContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstContentView.h; sourceTree = "<group>"; };
+		03AFA0F4155BE6010082D511 /* FirstContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstContentView.m; sourceTree = "<group>"; };
+		03AFA0F6155BE6150082D511 /* SecondContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondContentView.h; sourceTree = "<group>"; };
+		03AFA0F7155BE6150082D511 /* SecondContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondContentView.m; sourceTree = "<group>"; };
+		03AFA0FD155BEF2A0082D511 /* SpinningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinningView.h; sourceTree = "<group>"; };
+		03AFA0FE155BEF2A0082D511 /* SpinningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinningView.m; sourceTree = "<group>"; };
+		03AFA100155C00C80082D511 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03AFA0B9155BA8850082D511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AFA101155C00C80082D511 /* QuartzCore.framework in Frameworks */,
+				03AFA0C1155BA8850082D511 /* UIKit.framework in Frameworks */,
+				03AFA0C3155BA8850082D511 /* Foundation.framework in Frameworks */,
+				03AFA0C5155BA8850082D511 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AFA0B1155BA8850082D511 = {
+			isa = PBXGroup;
+			children = (
+				03AFA0C6155BA8850082D511 /* RotationExample */,
+				03AFA0BF155BA8850082D511 /* Frameworks */,
+				03AFA0BD155BA8850082D511 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03AFA0BD155BA8850082D511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03AFA0BC155BA8850082D511 /* RotationExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03AFA0BF155BA8850082D511 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03AFA0C0155BA8850082D511 /* UIKit.framework */,
+				03AFA0C2155BA8850082D511 /* Foundation.framework */,
+				03AFA0C4155BA8850082D511 /* CoreGraphics.framework */,
+				03AFA100155C00C80082D511 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03AFA0C6155BA8850082D511 /* RotationExample */ = {
+			isa = PBXGroup;
+			children = (
+				03AFA0F9155BE7870082D511 /* Main App and Model */,
+				03AFA0FB155BE7B30082D511 /* First Model */,
+				03AFA0FC155BE7D20082D511 /* Second Model */,
+				03AFA0FA155BE79F0082D511 /* Helper Classes */,
+				03AFA0C7155BA8850082D511 /* Supporting Files */,
+			);
+			path = RotationExample;
+			sourceTree = "<group>";
+		};
+		03AFA0C7155BA8850082D511 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03AFA0C8155BA8850082D511 /* RotationExample-Info.plist */,
+				03AFA0C9155BA8850082D511 /* InfoPlist.strings */,
+				03AFA0CC155BA8850082D511 /* main.m */,
+				03AFA0CE155BA8850082D511 /* RotationExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03AFA0F9155BE7870082D511 /* Main App and Model */ = {
+			isa = PBXGroup;
+			children = (
+				03AFA0CF155BA8850082D511 /* AppDelegate.h */,
+				03AFA0D0155BA8850082D511 /* AppDelegate.m */,
+				03AFA0EA155BE22E0082D511 /* FirstModel.h */,
+				03AFA0EB155BE22E0082D511 /* FirstModel.m */,
+				03AFA0ED155BE23A0082D511 /* SecondModel.h */,
+				03AFA0EE155BE23A0082D511 /* SecondModel.m */,
+			);
+			name = "Main App and Model";
+			sourceTree = "<group>";
+		};
+		03AFA0FA155BE79F0082D511 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				03AFA0D7155BA9DA0082D511 /* RotatingViewController.h */,
+				03AFA0D8155BA9DA0082D511 /* RotatingViewController.m */,
+				03AFA0F0155BE5F00082D511 /* RotatingContentView.h */,
+				03AFA0F1155BE5F00082D511 /* RotatingContentView.m */,
+			);
+			name = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		03AFA0FB155BE7B30082D511 /* First Model */ = {
+			isa = PBXGroup;
+			children = (
+				03AFA0E2155BC4B00082D511 /* FirstViewController.h */,
+				03AFA0E3155BC4B00082D511 /* FirstViewController.m */,
+				03AFA0DC155BAAE70082D511 /* FirstViewController.xib */,
+				03AFA0F3155BE6010082D511 /* FirstContentView.h */,
+				03AFA0F4155BE6010082D511 /* FirstContentView.m */,
+			);
+			name = "First Model";
+			sourceTree = "<group>";
+		};
+		03AFA0FC155BE7D20082D511 /* Second Model */ = {
+			isa = PBXGroup;
+			children = (
+				03AFA0E5155BC4CA0082D511 /* SecondViewController.h */,
+				03AFA0E6155BC4CA0082D511 /* SecondViewController.m */,
+				03AFA0E8155BC5470082D511 /* SecondViewController.xib */,
+				03AFA0F6155BE6150082D511 /* SecondContentView.h */,
+				03AFA0F7155BE6150082D511 /* SecondContentView.m */,
+				03AFA0FD155BEF2A0082D511 /* SpinningView.h */,
+				03AFA0FE155BEF2A0082D511 /* SpinningView.m */,
+			);
+			name = "Second Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03AFA0BB155BA8850082D511 /* RotationExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AFA0D4155BA8850082D511 /* Build configuration list for PBXNativeTarget "RotationExample" */;
+			buildPhases = (
+				03AFA0B8155BA8850082D511 /* Sources */,
+				03AFA0B9155BA8850082D511 /* Frameworks */,
+				03AFA0BA155BA8850082D511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotationExample;
+			productName = RotationExample;
+			productReference = 03AFA0BC155BA8850082D511 /* RotationExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03AFA0B3155BA8850082D511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 03AFA0B6155BA8850082D511 /* Build configuration list for PBXProject "RotationExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03AFA0B1155BA8850082D511;
+			productRefGroup = 03AFA0BD155BA8850082D511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03AFA0BB155BA8850082D511 /* RotationExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03AFA0BA155BA8850082D511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AFA0CB155BA8850082D511 /* InfoPlist.strings in Resources */,
+				03AFA0DE155BAAE70082D511 /* FirstViewController.xib in Resources */,
+				03AFA0E9155BC5470082D511 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03AFA0B8155BA8850082D511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AFA0CD155BA8850082D511 /* main.m in Sources */,
+				03AFA0D1155BA8850082D511 /* AppDelegate.m in Sources */,
+				03AFA0D9155BA9DA0082D511 /* RotatingViewController.m in Sources */,
+				03AFA0E4155BC4B00082D511 /* FirstViewController.m in Sources */,
+				03AFA0E7155BC4CA0082D511 /* SecondViewController.m in Sources */,
+				03AFA0EC155BE22E0082D511 /* FirstModel.m in Sources */,
+				03AFA0EF155BE23A0082D511 /* SecondModel.m in Sources */,
+				03AFA0F2155BE5F00082D511 /* RotatingContentView.m in Sources */,
+				03AFA0F5155BE6010082D511 /* FirstContentView.m in Sources */,
+				03AFA0F8155BE6150082D511 /* SecondContentView.m in Sources */,
+				03AFA0FF155BEF2A0082D511 /* SpinningView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03AFA0C9155BA8850082D511 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03AFA0CA155BA8850082D511 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03AFA0D2155BA8850082D511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03AFA0D3155BA8850082D511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03AFA0D5155BA8850082D511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotationExample/RotationExample-Prefix.pch";
+				INFOPLIST_FILE = "RotationExample/RotationExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03AFA0D6155BA8850082D511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotationExample/RotationExample-Prefix.pch";
+				INFOPLIST_FILE = "RotationExample/RotationExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03AFA0B6155BA8850082D511 /* Build configuration list for PBXProject "RotationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AFA0D2155BA8850082D511 /* Debug */,
+				03AFA0D3155BA8850082D511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03AFA0D4155BA8850082D511 /* Build configuration list for PBXNativeTarget "RotationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AFA0D5155BA8850082D511 /* Debug */,
+				03AFA0D6155BA8850082D511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03AFA0B3155BA8850082D511 /* Project object */;
+}
